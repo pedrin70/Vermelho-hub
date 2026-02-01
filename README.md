@@ -6,7 +6,7 @@ local autoFarmActive = false
 local antiAfkActive = false
 local flyActive = false
 local flySpeed = 50 
-local itemName = "Radioactive Coin"
+local itemName = "GoldBar"
 
 local function startFly()
     local char = player.Character or player.CharacterAdded:Wait()
@@ -232,7 +232,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local autoFarmActive = false
 
-local NOME_MOEDA = "Radioactive Coin" 
+local NOME_MOEDA = "GoldBar" 
 
 local function teleportarMoedas()
     local char = player.Character
